@@ -9,9 +9,9 @@
 //appendChild
 //cloneNode
 
-const block = document.createElement('div');
+let block = document.createElement('div');
 
-block.classList.add(wrap, collapse, alpha, beta)
+block.classList.add('wrap', 'collapse', 'alpha', 'beta')
 
 block.style.backgroundColor = 'lightblue';
 block.style.color = 'white';
